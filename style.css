@@ -8,12 +8,18 @@ body{background-color: white;
 
     
 .container{border-color: rgba(224, 174, 174, 0);
-   position:relative;
+   position:absolute;
     background-color: rgb(108, 4, 45);
+   display: block;
     height: 2500px;
-    width: 150px ;
-    margin: 30 80px;
-    padding: 15px;}
+    width: 1200px ;
+    margin:0px;
+    padding: 15px;
+    border-radius: 20px;
+}
+    img { max-width: 100%; 
+        display: block; 
+        height: auto; margin: 0 auto; }
     
     .description{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(255,255,255); text-align: center; font-size: 75px;}
     .title{color: rgba(255,200,200); font-family: 'Courier New', Courier, monospace; font-size: 20px; text-align: center;}
@@ -23,8 +29,10 @@ body{background-color: white;
         margin-left: 10px;
         height: 700px; 
         width: 1180px;
-        background-image:url(images/rahmon\ habeeb\ -\ 1.jpg); background-blend-mode:overlay; background-size: cover; background-color: rgb(124, 21, 21);
-    z-index: 4;}
+        background-image:url(images/rahmon\ habeeb\ -\ 1.jpg); 
+        background-blend-mode:overlay; background-size: cover; 
+        background-color: rgb(124, 21, 21);
+        z-index: 4;}
         .img2{
             height: 600px;
             
