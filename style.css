@@ -1,0 +1,97 @@
+body{background-color: white;
+    position: static;
+    margin: 0;
+}
+img { max-width: 100%; display: block; height: auto; margin: 0 auto; }
+    
+.container{border-color: rgba(224, 174, 174, 0);
+   position:relative;
+    background-color: rgb(108, 4, 45);
+    height: 2500px;
+    width: 150px ;
+    margin: 30 80px;
+    padding: 15px;}
+    
+    .description{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(255,255,255); text-align: center; font-size: 75px;}
+    .title{color: rgba(255,200,200); font-family: 'Courier New', Courier, monospace; font-size: 20px; text-align: center;}
+    .div-1{
+        position: absolute;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 700px; 
+        width: 1180px;
+        background-image:url(images/rahmon\ habeeb\ -\ 1.jpg); background-blend-mode:overlay; background-size: cover; background-color: rgb(124, 21, 21);
+    z-index: 4;}
+        .img2{
+            height: 600px;
+            
+            position: absolute;
+            padding-top: 20px ;
+            padding-right: 20% ;
+            padding-left: 100px;
+            padding-bottom: 20px;
+            z-index: 9;
+        }
+        .img-caption{
+            position: absolute;
+            z-index: 15;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            color: rgb(239, 230, 230);
+            margin-top: 55%;
+            margin-left: 7%;
+            
+        }
+        .about{
+            color: aliceblue;
+            z-index: 20;
+            position: absolute;
+            margin: auto;
+            
+        }
+        .heading{
+            margin-top: 750px;
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+ul{
+    max-width: 800px; 
+    margin: 0 auto 50px auto; 
+    text-align: left; 
+}      
+
+li{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.qoute{
+    font-style: italic; 
+    max-width: 545px; 
+    margin-top: 50px; 
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.read{
+    margin-top: 50px;
+     color: rgb(255,255,255);
+     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    text-align: right;
+
+}
+a{
+    color: rgb(50,50,150);
+}
+footer{
+    color: whitesmoke;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 60px;
+}
+
+    
