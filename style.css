@@ -9,7 +9,7 @@ body{background-color: white;
     
 .container{border-color: rgba(224, 174, 174, 0);
    position:absolute;
-    background-color: rgb(108, 4, 45);
+    background-color: rgb(150, 20, 10);
    display: block;
     height: 2500px;
     width: 1200px ;
@@ -17,7 +17,7 @@ body{background-color: white;
     padding: 15px;
     border-radius: 20px;
 }
-@media (max-width: 460px) { #main { margin: 0; } }
+
     img { max-width: 100%; 
         display: block; 
         height: auto; margin: 0 auto; }
