@@ -6,7 +6,7 @@ body{background-color: white;
 
 }
 
-    
+   @media(max-width:400px) {
 .container{border-color: rgba(224, 174, 174, 0);
    position:absolute;
     background-color: rgb(150, 20, 10);
@@ -17,10 +17,11 @@ body{background-color: white;
     padding: 15px;
     border-radius: 20px;
 }
-
+   }
+   @media(max-width:400px) {
     img { max-width: 100%; 
         display: block; 
-        height: auto; margin: 0 auto; }
+        height: auto; margin: 0 auto; }}
     
     .description{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(255,255,255); text-align: center; font-size: 75px;}
     .title{color: rgba(255,200,200); font-family: 'Courier New', Courier, monospace; font-size: 20px; text-align: center;}
@@ -54,13 +55,14 @@ body{background-color: white;
             margin-left: 7%;
             
         }
+        @media(max-width:400px){
         .about{
             color: aliceblue;
             z-index: 20;
             position: absolute;
             margin: auto;
             
-        }
+        }}
         .heading{
             margin-top: 750px;
             margin-left: 400px;
@@ -69,11 +71,13 @@ body{background-color: white;
             font-weight: bold;
             
         }
+
+        @media(max-width:400px){
 ul{
     max-width: 800px; 
     margin: 0 auto 50px auto; 
     text-align: left; 
-}      
+}      }
 
 li{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
